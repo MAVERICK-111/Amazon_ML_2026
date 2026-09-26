@@ -1,0 +1,11 @@
+pandas>=2.1.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.3.0
+sentence-transformers>=3.0.0    # Apache-2.0; wraps models from HuggingFace
+hnswlib>=0.8.0
+rapidfuzz>=3.6.0                # MIT; fast Levenshtein / token-sort-ratio
+tqdm>=4.66.0
+torch>=2.2.0                    # required by sentence-transformers (CPU build is fine)
+# optional: accelerate>=0.28.0  # speeds up HF model inference on GPU
